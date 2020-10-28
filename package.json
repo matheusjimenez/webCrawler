@@ -1,0 +1,31 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "A webcrawler that exports data to excell",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "excel4node": "^1.7.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusjimenez/webCrawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "webcrawler",
+    "exportExcel"
+  ],
+  "author": "@matheusjimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusjimenez/webCrawler/issues"
+  },
+  "homepage": "https://github.com/matheusjimenez/webCrawler#readme"
+}
